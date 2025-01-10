@@ -1,5 +1,5 @@
-/* Basic reset */
-* {
+
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,7 +13,6 @@ body {
     background-color: #fff;
 }
 
-/* Container */
 .container {
     display: flex;
     justify-content: center;
@@ -26,7 +25,6 @@ body {
     max-width: 1200px; /* Limits max width of the container for larger screens */
 }
 
-/* Headlines */
 .headlines {
     background-color: #e6eef2;
     text-align: center;
@@ -39,7 +37,6 @@ h1 {
     margin-bottom: 0px; /* Reduced margin-bottom to reduce space between h1 and h2 */
 }
 
-/* Subheading */
 h2 {
     font-size: 1.4em;
     color: #333;
@@ -48,7 +45,6 @@ h2 {
     margin-bottom: 20px; /* Optional: Add space below h2 */
 }
 
-/* Image Container */
 .image-container {
     display: block;
     text-align: center;
@@ -79,7 +75,6 @@ figcaption {
     color: #666;
 }
 
-/* Byline and Dateline */
 .byline, .dateline {
     font-size: 1.2em;
     color: #333;
@@ -98,12 +93,10 @@ figcaption {
     line-height: 1.2; /* Reduced line-height for closer line spacing */
 }
 
-/* Add increased margin-bottom to each paragraph */
 .story p {
     margin-bottom: 20px; /* Increased bottom margin to 20px */
 }
 
-/* Hyperlink Styling */
 .hyperlinks a {
     color: #007BFF;
     text-decoration: none;
