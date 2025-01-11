@@ -81,7 +81,6 @@ figcaption {
     font-size: 1.2em;
     color: #333;
     text-align: center;
-    padding: 0px; /* Same padding */
     line-height: 1.6; /* Same line-height as the story text */
 }
 
